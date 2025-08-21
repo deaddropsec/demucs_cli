@@ -20,4 +20,4 @@ pip install -r requirements.txt
 1. Place audio files in `tracks_in/`
 2. Run the app and select files with arrow keys
 3. Find stems in `tracks_out/<songname>/`
-4. Processed files move to `tracks_done/`
+4. Processed files move to `tracks_processed/`
