@@ -18,7 +18,7 @@ def process_audio_files(selected_files: List[Path], output_dir: Path, processed_
                 "python", "-m", "demucs",
                 "-n", "mdx_extra",
                 "-o", str(output_dir),
-                "--filename", "{track}/{stem}.{ext}",
+                "--filename", "{track}/{track}_{stem}.{ext}",
                 str(audio_file)
             ]
             
